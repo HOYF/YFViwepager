@@ -5,7 +5,6 @@
 
 几行代码设置即可使用：
     
-    
     YFViwepager *viwepager = [YFViwepager viwepagerWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 200)];
     //协议关联
     viwepager.delegate = self;
