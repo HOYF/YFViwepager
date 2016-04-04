@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C68928391CB2245C00A16652 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68928381CB2245C00A16652 /* main.m */; };
+		C689283C1CB2245C00A16652 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C689283B1CB2245C00A16652 /* AppDelegate.m */; };
+		C689283F1CB2245C00A16652 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C689283E1CB2245C00A16652 /* ViewController.m */; };
+		C68928421CB2245C00A16652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68928401CB2245C00A16652 /* Main.storyboard */; };
+		C68928441CB2245C00A16652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68928431CB2245C00A16652 /* Assets.xcassets */; };
+		C68928471CB2245C00A16652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68928451CB2245C00A16652 /* LaunchScreen.storyboard */; };
+		C68928521CB2245D00A16652 /* YFViwePagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C68928511CB2245D00A16652 /* YFViwePagerTests.m */; };
+		C689285D1CB2245D00A16652 /* YFViwePagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C689285C1CB2245D00A16652 /* YFViwePagerUITests.m */; };
+		C689286F1CB2280C00A16652 /* YFViwepager.m in Sources */ = {isa = PBXBuildFile; fileRef = C689286E1CB2280C00A16652 /* YFViwepager.m */; };
+		C68928721CB228CE00A16652 /* HeaderDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C68928711CB228CE00A16652 /* HeaderDetailVC.m */; };
+		C68928741CB22A6400A16652 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = C68928731CB22A6400A16652 /* 1.png */; };
+		C68928761CB22A8C00A16652 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C68928751CB22A8C00A16652 /* 2.png */; };
+		C68928781CB22AA500A16652 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = C68928771CB22AA500A16652 /* 3.png */; };
+		E9E1FF9C44814BFB4480A0AF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 191F4A58B5FE3FF915B11FEC /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C689284E1CB2245D00A16652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C689282C1CB2245C00A16652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C68928331CB2245C00A16652;
+			remoteInfo = YFViwePager;
+		};
+		C68928591CB2245D00A16652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C689282C1CB2245C00A16652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C68928331CB2245C00A16652;
+			remoteInfo = YFViwePager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		191F4A58B5FE3FF915B11FEC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE04C6FA1E771BFA33124C5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C68928341CB2245C00A16652 /* YFViwePager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFViwePager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68928381CB2245C00A16652 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C689283A1CB2245C00A16652 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C689283B1CB2245C00A16652 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C689283D1CB2245C00A16652 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C689283E1CB2245C00A16652 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C68928411CB2245C00A16652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C68928431CB2245C00A16652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C68928461CB2245C00A16652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C68928481CB2245C00A16652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C689284D1CB2245D00A16652 /* YFViwePagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFViwePagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68928511CB2245D00A16652 /* YFViwePagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFViwePagerTests.m; sourceTree = "<group>"; };
+		C68928531CB2245D00A16652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68928581CB2245D00A16652 /* YFViwePagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFViwePagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C689285C1CB2245D00A16652 /* YFViwePagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFViwePagerUITests.m; sourceTree = "<group>"; };
+		C689285E1CB2245D00A16652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C689286D1CB2280C00A16652 /* YFViwepager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFViwepager.h; sourceTree = "<group>"; };
+		C689286E1CB2280C00A16652 /* YFViwepager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFViwepager.m; sourceTree = "<group>"; };
+		C68928701CB228CE00A16652 /* HeaderDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderDetailVC.h; sourceTree = "<group>"; };
+		C68928711CB228CE00A16652 /* HeaderDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderDetailVC.m; sourceTree = "<group>"; };
+		C68928731CB22A6400A16652 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		C68928751CB22A8C00A16652 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		C68928771CB22AA500A16652 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		D177EB1B87FD53226CF279CC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68928311CB2245C00A16652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E1FF9C44814BFB4480A0AF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C689284A1CB2245D00A16652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68928551CB2245D00A16652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0010E7C406166C1B1968351D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				191F4A58B5FE3FF915B11FEC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C689282B1CB2245C00A16652 = {
+			isa = PBXGroup;
+			children = (
+				C68928361CB2245C00A16652 /* YFViwePager */,
+				C68928501CB2245D00A16652 /* YFViwePagerTests */,
+				C689285B1CB2245D00A16652 /* YFViwePagerUITests */,
+				C68928351CB2245C00A16652 /* Products */,
+				EFF2C33F8B7C0571B1A9D8B7 /* Pods */,
+				0010E7C406166C1B1968351D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C68928351CB2245C00A16652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C68928341CB2245C00A16652 /* YFViwePager.app */,
+				C689284D1CB2245D00A16652 /* YFViwePagerTests.xctest */,
+				C68928581CB2245D00A16652 /* YFViwePagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C68928361CB2245C00A16652 /* YFViwePager */ = {
+			isa = PBXGroup;
+			children = (
+				C68928731CB22A6400A16652 /* 1.png */,
+				C68928751CB22A8C00A16652 /* 2.png */,
+				C68928771CB22AA500A16652 /* 3.png */,
+				C689283A1CB2245C00A16652 /* AppDelegate.h */,
+				C689283B1CB2245C00A16652 /* AppDelegate.m */,
+				C689286D1CB2280C00A16652 /* YFViwepager.h */,
+				C689286E1CB2280C00A16652 /* YFViwepager.m */,
+				C689283D1CB2245C00A16652 /* ViewController.h */,
+				C689283E1CB2245C00A16652 /* ViewController.m */,
+				C68928701CB228CE00A16652 /* HeaderDetailVC.h */,
+				C68928711CB228CE00A16652 /* HeaderDetailVC.m */,
+				C68928401CB2245C00A16652 /* Main.storyboard */,
+				C68928431CB2245C00A16652 /* Assets.xcassets */,
+				C68928451CB2245C00A16652 /* LaunchScreen.storyboard */,
+				C68928481CB2245C00A16652 /* Info.plist */,
+				C68928371CB2245C00A16652 /* Supporting Files */,
+			);
+			path = YFViwePager;
+			sourceTree = "<group>";
+		};
+		C68928371CB2245C00A16652 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C68928381CB2245C00A16652 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C68928501CB2245D00A16652 /* YFViwePagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C68928511CB2245D00A16652 /* YFViwePagerTests.m */,
+				C68928531CB2245D00A16652 /* Info.plist */,
+			);
+			path = YFViwePagerTests;
+			sourceTree = "<group>";
+		};
+		C689285B1CB2245D00A16652 /* YFViwePagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C689285C1CB2245D00A16652 /* YFViwePagerUITests.m */,
+				C689285E1CB2245D00A16652 /* Info.plist */,
+			);
+			path = YFViwePagerUITests;
+			sourceTree = "<group>";
+		};
+		EFF2C33F8B7C0571B1A9D8B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D177EB1B87FD53226CF279CC /* Pods.debug.xcconfig */,
+				4CE04C6FA1E771BFA33124C5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C68928331CB2245C00A16652 /* YFViwePager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68928611CB2245D00A16652 /* Build configuration list for PBXNativeTarget "YFViwePager" */;
+			buildPhases = (
+				89490C0C70F55A1E03C058C6 /* Check Pods Manifest.lock */,
+				C68928301CB2245C00A16652 /* Sources */,
+				C68928311CB2245C00A16652 /* Frameworks */,
+				C68928321CB2245C00A16652 /* Resources */,
+				E359A441CAEDB911D24A7CB2 /* Embed Pods Frameworks */,
+				833231AEFD745F29F30C82F5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YFViwePager;
+			productName = YFViwePager;
+			productReference = C68928341CB2245C00A16652 /* YFViwePager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C689284C1CB2245D00A16652 /* YFViwePagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68928641CB2245D00A16652 /* Build configuration list for PBXNativeTarget "YFViwePagerTests" */;
+			buildPhases = (
+				C68928491CB2245D00A16652 /* Sources */,
+				C689284A1CB2245D00A16652 /* Frameworks */,
+				C689284B1CB2245D00A16652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C689284F1CB2245D00A16652 /* PBXTargetDependency */,
+			);
+			name = YFViwePagerTests;
+			productName = YFViwePagerTests;
+			productReference = C689284D1CB2245D00A16652 /* YFViwePagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C68928571CB2245D00A16652 /* YFViwePagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68928671CB2245D00A16652 /* Build configuration list for PBXNativeTarget "YFViwePagerUITests" */;
+			buildPhases = (
+				C68928541CB2245D00A16652 /* Sources */,
+				C68928551CB2245D00A16652 /* Frameworks */,
+				C68928561CB2245D00A16652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C689285A1CB2245D00A16652 /* PBXTargetDependency */,
+			);
+			name = YFViwePagerUITests;
+			productName = YFViwePagerUITests;
+			productReference = C68928581CB2245D00A16652 /* YFViwePagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C689282C1CB2245C00A16652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HO;
+				TargetAttributes = {
+					C68928331CB2245C00A16652 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C689284C1CB2245D00A16652 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C68928331CB2245C00A16652;
+					};
+					C68928571CB2245D00A16652 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C68928331CB2245C00A16652;
+					};
+				};
+			};
+			buildConfigurationList = C689282F1CB2245C00A16652 /* Build configuration list for PBXProject "YFViwePager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C689282B1CB2245C00A16652;
+			productRefGroup = C68928351CB2245C00A16652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C68928331CB2245C00A16652 /* YFViwePager */,
+				C689284C1CB2245D00A16652 /* YFViwePagerTests */,
+				C68928571CB2245D00A16652 /* YFViwePagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C68928321CB2245C00A16652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68928471CB2245C00A16652 /* LaunchScreen.storyboard in Resources */,
+				C68928441CB2245C00A16652 /* Assets.xcassets in Resources */,
+				C68928781CB22AA500A16652 /* 3.png in Resources */,
+				C68928761CB22A8C00A16652 /* 2.png in Resources */,
+				C68928741CB22A6400A16652 /* 1.png in Resources */,
+				C68928421CB2245C00A16652 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C689284B1CB2245D00A16652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68928561CB2245D00A16652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		833231AEFD745F29F30C82F5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89490C0C70F55A1E03C058C6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E359A441CAEDB911D24A7CB2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68928301CB2245C00A16652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C689283F1CB2245C00A16652 /* ViewController.m in Sources */,
+				C689286F1CB2280C00A16652 /* YFViwepager.m in Sources */,
+				C689283C1CB2245C00A16652 /* AppDelegate.m in Sources */,
+				C68928721CB228CE00A16652 /* HeaderDetailVC.m in Sources */,
+				C68928391CB2245C00A16652 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68928491CB2245D00A16652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68928521CB2245D00A16652 /* YFViwePagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68928541CB2245D00A16652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C689285D1CB2245D00A16652 /* YFViwePagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C689284F1CB2245D00A16652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C68928331CB2245C00A16652 /* YFViwePager */;
+			targetProxy = C689284E1CB2245D00A16652 /* PBXContainerItemProxy */;
+		};
+		C689285A1CB2245D00A16652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C68928331CB2245C00A16652 /* YFViwePager */;
+			targetProxy = C68928591CB2245D00A16652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C68928401CB2245C00A16652 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68928411CB2245C00A16652 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C68928451CB2245C00A16652 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68928461CB2245C00A16652 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C689285F1CB2245D00A16652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C68928601CB2245D00A16652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C68928621CB2245D00A16652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D177EB1B87FD53226CF279CC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YFViwePager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOYF.YFViwePager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C68928631CB2245D00A16652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE04C6FA1E771BFA33124C5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YFViwePager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOYF.YFViwePager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C68928651CB2245D00A16652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YFViwePagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOYF.YFViwePagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YFViwePager.app/YFViwePager";
+			};
+			name = Debug;
+		};
+		C68928661CB2245D00A16652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YFViwePagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOYF.YFViwePagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YFViwePager.app/YFViwePager";
+			};
+			name = Release;
+		};
+		C68928681CB2245D00A16652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YFViwePagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOYF.YFViwePagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YFViwePager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C68928691CB2245D00A16652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YFViwePagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOYF.YFViwePagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YFViwePager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C689282F1CB2245C00A16652 /* Build configuration list for PBXProject "YFViwePager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C689285F1CB2245D00A16652 /* Debug */,
+				C68928601CB2245D00A16652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68928611CB2245D00A16652 /* Build configuration list for PBXNativeTarget "YFViwePager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68928621CB2245D00A16652 /* Debug */,
+				C68928631CB2245D00A16652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68928641CB2245D00A16652 /* Build configuration list for PBXNativeTarget "YFViwePagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68928651CB2245D00A16652 /* Debug */,
+				C68928661CB2245D00A16652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68928671CB2245D00A16652 /* Build configuration list for PBXNativeTarget "YFViwePagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68928681CB2245D00A16652 /* Debug */,
+				C68928691CB2245D00A16652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C689282C1CB2245C00A16652 /* Project object */;
+}

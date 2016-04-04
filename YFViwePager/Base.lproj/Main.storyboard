@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9fo-yY-x5p">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Bm8-YJ-ghN">
+            <objects>
+                <navigationController id="9fo-yY-x5p" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qhB-v1-0w9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="0Mh-iQ-g4j" kind="relationship" relationship="rootViewController" id="iCt-AO-YVY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jhR-v1-JpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-596" y="-128"/>
+        </scene>
+        <!--图片轮播-->
+        <scene sceneID="71g-3y-bce">
+            <objects>
+                <viewController id="0Mh-iQ-g4j" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zIy-pX-abJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="DUf-ev-aj6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vjt-Rm-KnF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="图片轮播" id="qTX-qu-6X0"/>
+                    <connections>
+                        <segue destination="fb9-uv-NSb" kind="push" id="L5o-0x-0gw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X8L-Wx-rYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40.5" y="-128.5"/>
+        </scene>
+        <!--Header DetailVC-->
+        <scene sceneID="M0g-dI-aMk">
+            <objects>
+                <viewController id="fb9-uv-NSb" customClass="HeaderDetailVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Ck-EZ-6hV"/>
+                        <viewControllerLayoutGuide type="bottom" id="v6Z-Zd-uPP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dk4-GX-gCe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Um2-Yz-bft"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UdG-I1-ULF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653.5" y="-128.5"/>
+        </scene>
+    </scenes>
+</document>
