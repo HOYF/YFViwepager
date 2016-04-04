@@ -1,9 +1,9 @@
 # YFViwepager
 用法简单的图片轮播器框架：传入图片url或者本地图片名称，直接自行滚动
 
-＃轮播中的图片，如果是网络图片，则点击轮播中的图片，push到对应图片的url详情页面，如果是本地图片则不能点击
+轮播中的图片，如果是网络图片，则点击轮播中的图片，push到对应图片的url详情页面，如果是本地图片则不能点击
 
- ＃几行代码设置即可使用：
+几行代码设置即可使用：
    YFViwepager *viwepager = [YFViwepager viwepagerWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 200)];
     //协议关联
     viwepager.delegate = self;
